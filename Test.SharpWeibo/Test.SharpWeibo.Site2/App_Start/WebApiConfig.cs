@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace Test.SharpWeibo.Site
+namespace Test.SharpWeibo.Site2
 {
     public static class WebApiConfig
     {
@@ -14,11 +14,16 @@ namespace Test.SharpWeibo.Site
                 routeTemplate: "api/{controller}/{id}",
                 defaults: new { id = RouteParameter.Optional }
             );
+            config.Routes.MapHttpRoute(
+                name: "weiboAPI",
+                routeTemplate: "api/{controller}/{action}/{UserId}",
+                defaults: new { }
+            );
 
             config.Routes.MapHttpRoute(
                 name: "DefaultApi2",
                 routeTemplate: "api/{controller}/{action}/{userName}/{password}",
-                defaults: new { userName = RouteParameter.Optional }
+                defaults: new { }
             );
         }
     }

@@ -1,0 +1,105 @@
+
+日志时间：2013-04-11 00:11:45,245 [32] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select weibomsg0_.ID as ID0_, weibomsg0_.Content as Content0_, weibomsg0_.PublishDate as PublishD3_0_, weibomsg0_.userID as userID0_ from WEIBO_DATA_WEIBOMSG weibomsg0_ 
+
+日志时间：2013-04-11 00:11:45,245 [32] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select weibomsg0_.ID as ID0_, weibomsg0_.Content as Content0_, weibomsg0_.PublishDate as PublishD3_0_, weibomsg0_.userID as userID0_ from WEIBO_DATA_WEIBOMSG weibomsg0_ 
+
+日志时间：2013-04-11 00:11:45,245 [32] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select weibomsg0_.ID as ID0_, weibomsg0_.Content as Content0_, weibomsg0_.PublishDate as PublishD3_0_, weibomsg0_.userID as userID0_ from WEIBO_DATA_WEIBOMSG weibomsg0_ 
+
+日志时间：2013-04-11 00:11:53,761 [32] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select TOP (1)  weibomsg0_.ID as ID0_, weibomsg0_.Content as Content0_, weibomsg0_.PublishDate as PublishD3_0_, weibomsg0_.userID as userID0_ from WEIBO_DATA_WEIBOMSG weibomsg0_ where weibomsg0_.ID=@p0;@p0 = 1 [Type: Int32 (0)] 
+
+日志时间：2013-04-11 00:11:53,761 [32] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select TOP (1)  weibomsg0_.ID as ID0_, weibomsg0_.Content as Content0_, weibomsg0_.PublishDate as PublishD3_0_, weibomsg0_.userID as userID0_ from WEIBO_DATA_WEIBOMSG weibomsg0_ where weibomsg0_.ID=@p0;@p0 = 1 [Type: Int32 (0)] 
+
+日志时间：2013-04-11 00:11:53,761 [32] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select TOP (1)  weibomsg0_.ID as ID0_, weibomsg0_.Content as Content0_, weibomsg0_.PublishDate as PublishD3_0_, weibomsg0_.userID as userID0_ from WEIBO_DATA_WEIBOMSG weibomsg0_ where weibomsg0_.ID=@p0;@p0 = 1 [Type: Int32 (0)] 
+
+日志时间：2013-04-11 00:11:56,690 [33] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select TOP (1)  weibomsg0_.ID as ID0_, weibomsg0_.Content as Content0_, weibomsg0_.PublishDate as PublishD3_0_, weibomsg0_.userID as userID0_ from WEIBO_DATA_WEIBOMSG weibomsg0_ where weibomsg0_.ID=@p0;@p0 = 2 [Type: Int32 (0)] 
+
+日志时间：2013-04-11 00:11:56,690 [33] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select TOP (1)  weibomsg0_.ID as ID0_, weibomsg0_.Content as Content0_, weibomsg0_.PublishDate as PublishD3_0_, weibomsg0_.userID as userID0_ from WEIBO_DATA_WEIBOMSG weibomsg0_ where weibomsg0_.ID=@p0;@p0 = 2 [Type: Int32 (0)] 
+
+日志时间：2013-04-11 00:11:56,690 [33] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select TOP (1)  weibomsg0_.ID as ID0_, weibomsg0_.Content as Content0_, weibomsg0_.PublishDate as PublishD3_0_, weibomsg0_.userID as userID0_ from WEIBO_DATA_WEIBOMSG weibomsg0_ where weibomsg0_.ID=@p0;@p0 = 2 [Type: Int32 (0)] 
+
+日志时间：2013-04-11 00:12:29,443 [21] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select userinfo0_.ID as ID1_, userinfo0_.UserID as UserID1_, userinfo0_.UserName as UserName1_, userinfo0_.Password as Password1_, userinfo0_.NeckName as NeckName1_, userinfo0_.Gender as Gender1_, userinfo0_.Email as Email1_, userinfo0_.CreateDate as CreateDate1_, userinfo0_.LastActiveDate as LastActi9_1_ from WEBO_DATA_USERINFO userinfo0_ 
+
+日志时间：2013-04-11 00:12:29,443 [21] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select userinfo0_.ID as ID1_, userinfo0_.UserID as UserID1_, userinfo0_.UserName as UserName1_, userinfo0_.Password as Password1_, userinfo0_.NeckName as NeckName1_, userinfo0_.Gender as Gender1_, userinfo0_.Email as Email1_, userinfo0_.CreateDate as CreateDate1_, userinfo0_.LastActiveDate as LastActi9_1_ from WEBO_DATA_USERINFO userinfo0_ 
+
+日志时间：2013-04-11 00:12:29,443 [21] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select userinfo0_.ID as ID1_, userinfo0_.UserID as UserID1_, userinfo0_.UserName as UserName1_, userinfo0_.Password as Password1_, userinfo0_.NeckName as NeckName1_, userinfo0_.Gender as Gender1_, userinfo0_.Email as Email1_, userinfo0_.CreateDate as CreateDate1_, userinfo0_.LastActiveDate as LastActi9_1_ from WEBO_DATA_USERINFO userinfo0_ 
+
+日志时间：2013-04-11 00:12:43,030 [21] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select userinfo0_.ID as ID1_, userinfo0_.UserID as UserID1_, userinfo0_.UserName as UserName1_, userinfo0_.Password as Password1_, userinfo0_.NeckName as NeckName1_, userinfo0_.Gender as Gender1_, userinfo0_.Email as Email1_, userinfo0_.CreateDate as CreateDate1_, userinfo0_.LastActiveDate as LastActi9_1_ from WEBO_DATA_USERINFO userinfo0_ 
+
+日志时间：2013-04-11 00:12:43,030 [21] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select userinfo0_.ID as ID1_, userinfo0_.UserID as UserID1_, userinfo0_.UserName as UserName1_, userinfo0_.Password as Password1_, userinfo0_.NeckName as NeckName1_, userinfo0_.Gender as Gender1_, userinfo0_.Email as Email1_, userinfo0_.CreateDate as CreateDate1_, userinfo0_.LastActiveDate as LastActi9_1_ from WEBO_DATA_USERINFO userinfo0_ 
+
+日志时间：2013-04-11 00:12:43,030 [21] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select userinfo0_.ID as ID1_, userinfo0_.UserID as UserID1_, userinfo0_.UserName as UserName1_, userinfo0_.Password as Password1_, userinfo0_.NeckName as NeckName1_, userinfo0_.Gender as Gender1_, userinfo0_.Email as Email1_, userinfo0_.CreateDate as CreateDate1_, userinfo0_.LastActiveDate as LastActi9_1_ from WEBO_DATA_USERINFO userinfo0_ 
+
+日志时间：2013-04-11 00:16:24,001 [17] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select weibomsg0_.ID as ID0_, weibomsg0_.Content as Content0_, weibomsg0_.PublishDate as PublishD3_0_, weibomsg0_.userID as userID0_ from WEIBO_DATA_WEIBOMSG weibomsg0_ 
+
+日志时间：2013-04-11 00:16:24,001 [17] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select weibomsg0_.ID as ID0_, weibomsg0_.Content as Content0_, weibomsg0_.PublishDate as PublishD3_0_, weibomsg0_.userID as userID0_ from WEIBO_DATA_WEIBOMSG weibomsg0_ 
+
+日志时间：2013-04-11 00:16:24,001 [17] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select weibomsg0_.ID as ID0_, weibomsg0_.Content as Content0_, weibomsg0_.PublishDate as PublishD3_0_, weibomsg0_.userID as userID0_ from WEIBO_DATA_WEIBOMSG weibomsg0_ 
+
+日志时间：2013-04-11 00:20:02,691 [27] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select weibomsg0_.ID as ID0_, weibomsg0_.Content as Content0_, weibomsg0_.PublishDate as PublishD3_0_, weibomsg0_.userID as userID0_ from WEIBO_DATA_WEIBOMSG weibomsg0_ where weibomsg0_.userID=@p0;@p0 = 'zhxiaog' [Type: String (4000)] 
+
+日志时间：2013-04-11 00:20:02,691 [27] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select weibomsg0_.ID as ID0_, weibomsg0_.Content as Content0_, weibomsg0_.PublishDate as PublishD3_0_, weibomsg0_.userID as userID0_ from WEIBO_DATA_WEIBOMSG weibomsg0_ where weibomsg0_.userID=@p0;@p0 = 'zhxiaog' [Type: String (4000)] 
+
+日志时间：2013-04-11 00:20:02,691 [27] 
+日志级别：DEBUG 
+日 志 类：NHibernate.SQL [(null)] 
+select weibomsg0_.ID as ID0_, weibomsg0_.Content as Content0_, weibomsg0_.PublishDate as PublishD3_0_, weibomsg0_.userID as userID0_ from WEIBO_DATA_WEIBOMSG weibomsg0_ where weibomsg0_.userID=@p0;@p0 = 'zhxiaog' [Type: String (4000)] 

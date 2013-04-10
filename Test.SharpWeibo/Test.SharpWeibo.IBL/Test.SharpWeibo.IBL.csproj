@@ -40,8 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="IUserService.cs" />
+    <Compile Include="IWeiboService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Test.SharpWeibo.Entities\Test.SharpWeibo.Entities.csproj">
+      <Project>{0AE02B44-7EB4-4A12-B40B-DD6D7C58C12F}</Project>
+      <Name>Test.SharpWeibo.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

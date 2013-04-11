@@ -7,6 +7,12 @@ namespace Test.SharpWeibo.Entities
 {
     public class UserInfo
     {
+        public UserInfo()
+        {
+            this.CreateDate = DateTime.Now;
+            this.LastActiveDate = DateTime.Now;
+        }
+
         public virtual int ID { get; set; }
         public virtual string UserID { get; set; }
         public virtual string UserName { get; set; }

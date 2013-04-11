@@ -27,6 +27,8 @@ namespace Test.SharpWeibo.Biz
 
         public Entities.UserInfo Create(Entities.UserInfo user)
         {
+            user.CreateDate = DateTime.Now;
+            user.LastActiveDate = DateTime.Now;
             UserInfoDAL dal = new UserInfoDAL();
             var userInfo = dal.Create(user);
             dal.Flush();
